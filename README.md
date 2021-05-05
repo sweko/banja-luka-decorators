@@ -1,2 +1,2 @@
-# ijs-decorators
-Demo and live code for the IJS presentation - Make you a Redux for fun and profit
+# Decorators
+Demo and live code for the Decorators in TypeScript presentation
