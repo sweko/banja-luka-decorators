@@ -1,4 +1,4 @@
 export const isAuthorized = () => {
-    console.log(`[auth] Authenticated`);
+    console.log(`[auth] Authorized`);
     return true;
 }

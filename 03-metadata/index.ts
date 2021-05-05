@@ -1,5 +1,4 @@
 import { Person } from "./person";
-import { createCounts } from "./class-counter";
 import { callCounts } from "./method-counter";
 import { Calculator } from "./calculator";
 

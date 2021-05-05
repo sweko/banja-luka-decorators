@@ -1,10 +1,9 @@
-import { ScoreBoard } from "./scoreBoard";
+import { AccountBalance } from "./account-balance-ccc";
 
-const scoreboard = new ScoreBoard("Lakers", "Celtics");
+const account = new AccountBalance();
 
-scoreboard.addPoints(2, true);
-scoreboard.addPoints(3, false);
-scoreboard.addPoints(1, true);
-scoreboard.addPoints(1, true);
-
-scoreboard.showScore();
+account.accumulate(100, "up");
+account.accumulate(1000, "up");
+account.showBalance();
+account.accumulate(200, "down");
+account.showBalance();

@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/node": "^15.0.2"
+  },
+  "dependencies": {
+    "perf_hooks": "^0.0.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}
