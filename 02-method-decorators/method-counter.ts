@@ -4,7 +4,7 @@ export function CallMethodCounter (methodName?: string) {
     return function (target: any, propertyName: string, descriptor: PropertyDescriptor) {
         methodName = methodName || propertyName;
         callCounts[methodName] = 0;
-    
+
         return {
             ...descriptor,
             value: function (...args: any[]) {

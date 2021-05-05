@@ -1,4 +1,4 @@
-import { AccountBalance } from "./account-balance-ccc";
+import { AccountBalance } from "./account-balance";
 
 const account = new AccountBalance();
 

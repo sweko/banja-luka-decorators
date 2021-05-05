@@ -1,11 +1,8 @@
 import { increaseCreateCount } from "./metadata";
 
-export const createCounts: {[key:string]:number} = {};
-
 export function CreateClassCounter(className?: string) {
     return function(constructor: any) {
         className = className || constructor.name;
-        createCounts[className!] = 0;
     
         const wrappedConstructor: any = function (...args: any[]) {
             const result = new constructor(...args);

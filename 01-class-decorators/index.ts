@@ -1,8 +1,11 @@
+console.log("Before import");
 import { Person } from "./person";
+console.log("After import");
 import { createCounts } from "./class-counter";
 
+console.log("Before instance");
 const weko = new Person("Wekoslav", "Stefanovski");
-
+console.log("After instance");
 console.log(weko.getFullName());
 
 console.log(createCounts);

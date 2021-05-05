@@ -9,5 +9,5 @@ export const isAmmountValid = (value : number, direction: "up" | "down", balance
         return false;
     }
     console.log(`[validation] the operation is valid`)
-    return true
+    return true;
 }
